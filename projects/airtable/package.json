@@ -1,6 +1,6 @@
 {
   "name": "@raniel/airtable",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple Airtable service for Angular applications",
   "license": "MIT",
   "author": "Daniele Sabre (https://github.com/raniel86)",
