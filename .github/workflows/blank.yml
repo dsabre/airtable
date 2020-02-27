@@ -9,7 +9,4 @@ jobs:
     - uses: actions/setup-node@v1.1.0
     - name: Run a multi-line script
       run: |
-        npm i,
-        npm run build,
-        cd dist/airtable/
         ls -l.
