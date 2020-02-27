@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 13
           registry-url: https://npm.pkg.github.com/
-          scope: '@your-github-username'
+          scope: '@raniel86'
       - run: npm ci
       - run: npm run build
       - run: cd dist/airtable;npm publish
