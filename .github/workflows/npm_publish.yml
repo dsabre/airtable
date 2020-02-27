@@ -12,4 +12,5 @@ jobs:
         node-version: 13
     - run: npm ci
     - run: npm run build
+    - run: cd dist/airtable
     - run: ls -l
