@@ -12,7 +12,4 @@ jobs:
         node-version: 13
     - run: npm ci
     - run: npm run build
-  deploy:
-    runs-on: [ubuntu-latest]
-    steps:
-      - run: ls -l
+    - run: ls -l
