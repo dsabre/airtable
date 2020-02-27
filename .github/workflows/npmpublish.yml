@@ -15,8 +15,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm ci
       - run: npm run build
-      - run: cd dist/airtable
-      - run: npm publish
+      - run: cd dist/airtable;npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
@@ -31,7 +30,6 @@ jobs:
           scope: '@your-github-username'
       - run: npm ci
       - run: npm run build
-      - run: cd dist/airtable
-      - run: npm publish
+      - run: cd dist/airtable;npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
