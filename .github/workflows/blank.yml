@@ -9,4 +9,4 @@ jobs:
     - uses: actions/setup-node@v1.1.0
     - name: Run a multi-line script
       run: |
-        ls -l.
+        ls -l
