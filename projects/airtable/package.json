@@ -1,6 +1,24 @@
 {
   "name": "@raniel/airtable",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "description": "Simple Airtable service for Angular applications",
+  "license": "MIT",
+  "author": "Daniele Sabre (https://github.com/raniel86)",
+  "repository": {
+    "type": "git"
+    "url": "https://github.com/raniel86/airtable.git"
+  },
+  "homepage": "https://github.com/raniel86/airtable",
+  "bugs": {
+    "url": "https://github.com/raniel86/airtable/issues"
+  },
+  "keywords": [
+    "airtable",
+    "npm",
+    "package",
+    "raniel",
+    "angular"
+  ],
   "peerDependencies": {
     "@angular/common": "^8.2.14",
     "@angular/core": "^8.2.14",
