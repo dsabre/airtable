@@ -7,8 +7,6 @@
 
 > Simple Airtable service for Angular applications.
 
-### 🏠 [Homepage](https://github.com/raniel86/airtable)
-
 ## Install
 
 ```sh
