@@ -85,7 +85,7 @@ export class AirtableService {
     }
 
     getListByFieldValue(table: string, fieldName: string, fieldValue: string) {
-        return this.getList(table, [fieldName], '{' + fieldName + '} = \'' + fieldValue + '\'');
+        return this.getList(table, null, '{' + fieldName + '} = \'' + fieldValue + '\'');
     }
 
     getRecord(table: string, recordId: string) {
