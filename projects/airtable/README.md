@@ -1,24 +1,44 @@
-# Airtable
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.14.
+# Welcome to @raniel/airtable 👋
+[![Version](https://img.shields.io/npm/v/@raniel/airtable.svg)](https://www.npmjs.com/package/@raniel/airtable)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/raniel86/airtable#readme)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/raniel86/airtable/graphs/commit-activity)
+[![License: MIT](https://img.shields.io/github/license/raniel86/airtable)](https://github.com/raniel86/airtable/blob/master/LICENSE)
 
-## Code scaffolding
+> Simple Airtable service for Angular applications.
 
-Run `ng generate component component-name --project airtable` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project airtable`.
-> Note: Don't forget to add `--project airtable` or else it will be added to the default project in your `angular.json` file. 
+### 🏠 [Homepage](https://github.com/raniel86/airtable)
 
-## Build
+## Install
 
-Run `ng build airtable` to build the project. The build artifacts will be stored in the `dist/` directory.
+```sh
+npm i @raniel/airtable
+```
 
-## Publishing
+## Author
 
-After building your library with `ng build airtable`, go to the dist folder `cd dist/airtable` and run `npm publish`.
+👤 **Daniele Sabre (https://github.com/raniel86)**
 
-## Running unit tests
+* Github: [@raniel86](https://github.com/raniel86)
+* Twitter: [@raniel86](https://twitter.com/raniel86)
+* LinkedIn: [@danielesabre](https://linkedin.com/in/danielesabre)
 
-Run `ng test airtable` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🤝 Contributing
 
-## Further help
+Contributions, issues and feature requests are welcome!
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Feel free to check [issues page](https://github.com/raniel86/airtable/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+
+## 📝 License
+
+Copyright © 2020 [Daniele Sabre (https://github.com/raniel86)](https://github.com/raniel86).
+
+This project is [MIT](https://github.com/raniel86/airtable/blob/master/LICENSE) licensed.
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
