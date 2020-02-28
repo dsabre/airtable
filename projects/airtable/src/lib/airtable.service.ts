@@ -130,14 +130,16 @@ export class AirtableService {
     }
 
     doDelete(table: string, recordIds: Array<string>) {
-        const url = this.baseUrl + this._dbId + '/' + table;
+        if (recordIds.length === 0) {
+            throw new Error('No record ids passed');
+        }
+
+        const urlRecords = recordIds.map(item => 'records[]=' + item).join('&');
+        const url = this.baseUrl + this._dbId + '/' + table + '?' + urlRecords;
 
         return this.httpClient.delete(url, {
             headers: {
                 Authorization: 'Bearer ' + this._apiKey
-            },
-            params: {
-                records: recordIds
             }
         });
     }
@@ -160,6 +162,8 @@ export class AirtableService {
                 });
             }
         });
+
+        return this;
     }
 
 }
