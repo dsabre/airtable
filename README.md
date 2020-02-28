@@ -3,6 +3,7 @@
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/raniel86/airtable#readme)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/raniel86/airtable/graphs/commit-activity)
 [![License: MIT](https://img.shields.io/github/license/raniel86/airtable)](https://github.com/raniel86/airtable/blob/master/LICENSE)
+![Publish on npm](https://github.com/raniel86/airtable/workflows/Publish%20on%20npm/badge.svg)
 
 > Simple Airtable service for Angular applications.
 
@@ -16,11 +17,11 @@ Add the HttpClientModule to imports array in your app.module.ts, using the follo
 ```ts
 import {HttpClientModule} from '@angular/common/http';
 ```
-injects the AirtableService in a constructor like this:
+Injects the AirtableService in a constructor like this:
 ```ts
 constructor(private airtable: AirtableService) {}
 ```
-set your api key and database id to airtable service variables:
+Set your api key and database id to airtable service variables:
 ```ts
 this.airtable.apiKey = 'YOUR_AIRTABLE_API_KEY';
 this.airtable.dbId = 'YOUR_AIRTABLE_DATABASE_ID';
