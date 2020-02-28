@@ -7,7 +7,7 @@
 
 > Simple Airtable service for Angular applications.
 
-## Install
+## Install in your Angular app
 
 ```sh
 npm i @raniel/airtable
