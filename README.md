@@ -40,12 +40,12 @@ this.airtable.getListByFieldValue('your_table_name', 'field_name', 'field_value'
 });
 
 // get a table row from its id
-this.airtable.getRecord('your_table_name', 'recN1pdRLKOt5R0rs').subscribe(response => {  
+this.airtable.getRecord('your_table_name', 'ROW_ID').subscribe(response => {  
     console.log(response);  
 });
 
 // delete rows given their id
-this.airtable.doDelete('your_table_name', ['recMPsjsJGUOsz3gz', 'rec5UKOJL1jkAlPBB', 'recRjKYjaBvtDS4UW']).subscribe(response => {  
+this.airtable.doDelete('your_table_name', ['ROW_ID_1', 'ROW_ID_2', 'ROW_ID_3', ..., 'ROW_ID_N']).subscribe(response => {  
     console.log(response);  
 });
 
@@ -60,7 +60,7 @@ this.airtable.doInsert('your_table_name', {
 });
 
 // alter the values of a row given its id
-this.airtable.doUpdate('your_table_name', 'recN1pdRLKOt5R0rs', {  
+this.airtable.doUpdate('your_table_name', 'ROW_ID', {  
     fieldName: 'new field value',  
 }).subscribe(response => {  
     console.log(response);  
