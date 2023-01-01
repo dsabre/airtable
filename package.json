@@ -27,7 +27,7 @@
     "set-value": ">=4.0.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.803.29",
+    "@angular-devkit/build-angular": "^15.0.4",
     "@angular-devkit/build-ng-packagr": "^0.803.29",
     "@angular/cli": "^8.3.29",
     "@angular/compiler-cli": "~8.2.14",
